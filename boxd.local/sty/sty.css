@@ -1,0 +1,104 @@
+.tecksd {
+	padding: 3px;
+	margin: 1px;
+	width: 93%;
+	height: 51;
+	resize: none;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: 100;
+	font-size: 10pt;
+	
+	/*plain
+	 * color: black;
+	 * background: white;
+	 * border: 1px solid grey;
+	 */
+	/*blue*/
+	color: white;
+	/* background: #123456; */
+/*	background: rgba(255,150,20,0.2); */
+/* background: #EFEFEF; */
+  background: #126698;
+	border: none;
+
+	overflow:auto;
+	border-bottom-right-radius:1em;
+	border-top-left-radius:1em;
+/*	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;*/
+/*	box-shadow: 1px 2px 7px 1px #0044FF;*/
+}
+
+.control {
+	position:absolute;
+	left: 3%;
+	top: 0;
+	height: 50%;
+}
+.clicks {
+	width: 25px;
+	height: 25px;
+}
+
+.thelot {
+	top:0px;
+	height: 100%;
+}
+
+.whereitsat {
+	position: absolute;
+	width: 91%;
+	top:0px;
+  height: 100%;
+	left: 10%;
+}
+
+.scrolld {
+	position:absolute;
+	height: 100%;
+	width: 104%;
+	overflow: auto;
+}
+
+.padittop {
+	padding-top: 0px;
+}
+
+
+.paditbot {
+	padding-bottom: 0px;
+}
+
+
+.cold-right {
+	position: absolute;
+	left:750px;
+}
+
+html {
+				height: 100%;
+				width:19em;
+}
+body {
+	height: 100%;
+  background: #C5C9DC;
+  background: #CFD2E2;
+	overflow:hidden;
+}
+
+h1 {
+  color: black;
+	font-size: 11px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: 100;
+}
+
+
+p {
+  color: #123456;
+	font-size: 11px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: 100;
+}
+

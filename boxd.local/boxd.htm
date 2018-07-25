@@ -1,0 +1,94 @@
+<html>
+<head>
+  <meta id="viewport" name="viewport" content=
+  "initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./sty/sty.css">
+  <script src="./lib/jquery/jquery.js" type="text/javascript">
+</script>
+  <script type="text/javascript" src="boxd.js">
+</script>
+  <script defer="defer" type="text/javascript">
+      $().ready(function() {
+                $(window).scroll.disable;                       
+                //initial retrieval
+                $('textarea#boxa').val(localStorage["boxa"]);
+                $('textarea#boxb').val(localStorage["boxb"]);
+                $('textarea#boxc').val(localStorage["boxc"]);
+                $('textarea#boxd').val(localStorage["boxd"]);
+                stord();
+        });
+  </script>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=us-ascii">
+
+  <title>boxd</title>
+</head>
+
+<body onresize="thesets()">
+  <div class="control">
+    <input type="button" width="30" height="30" style=
+    "background-color:#01939A" class="clicks" onclick=
+    "addele()"><br>
+    <input type="button" width="30" height="30" style=
+    "background-color:#00C90D" class="clicks" onclick=
+    "remele()"><br>
+    <input type="button" width="30" height="30" style=
+    "background-color:#FF7600" class="clicks" onclick=
+    "store()"><br>
+    <input type="button" width="30" height="30" style=
+    "background-color:#CE37C8" class="clicks" onclick=
+    "print()"><br>
+    <a href="subs/make/make.htm"><input type="button" width="30"
+    height="30" style="background-color:#EBEF5C" class="clicks"
+    onclick="make()"></a><br>
+    <input type="button" width="30" height="30" style=
+    "background-color:#985AF0" class="clicks" onclick="infd()"
+    tooltip="huh?">
+  </div><!-- div class="control" -->
+
+  <div class="thelot" id="thelot">
+    <div class="whereitsat" id="whereitsat">
+      <div class="scrolld" id="scrolld">
+        <p class="padittop"></p>
+
+        <div id="theflow">
+          <textarea class="tecksd" placeholder="boxa" id="boxa">
+</textarea> 
+          <textarea class="tecksd" placeholder="boxb" id="boxb">
+</textarea> 
+          <textarea class="tecksd" placeholder="boxc" id="boxc">
+</textarea> 
+          <textarea class="tecksd" placeholder="boxd" id="boxd">
+</textarea>
+        </div><!-- div id="theflow" -->
+
+        <p class="paditbot"></p>
+      </div><!-- div class="scrolld" -->
+    </div><!--div class="whereitsat"-->
+
+    <div class="cold-right"></div>
+  </div><!-- div class="thelot" -->
+
+  <div class="hip">
+    <br>
+    <input type="button" width="30" height="30" style=
+    "background-color:#985AF0" class="clicks" onclick="topd()">
+
+    <p class="display">The value of the text input is:</p>
+
+    <p class="stord">stord:</p>
+
+    <p class="anot">stord:</p>
+
+    <p class="tona">stord:</p>
+
+    <p class="boxy">stord:</p>
+
+    <p class="dyhei">hei :</p>
+
+    <p class="dispy">scroll :</p>
+
+    <p class="display">The value of the text input is:</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*~
+*#
+*.swp
+1
+*tmp*
+*randd
+*.login
+
+*~
+*#
+.*swo
+.*swp
+1
+__pycache*
+.login
+*tmp*
